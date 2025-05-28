@@ -1,0 +1,53 @@
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "gallery": "المعارض",
+    "about": "عن جميل",
+    "contact": "اتصل بنا"
+  },
+  "languages": {
+    "fr": "الفرنسية",
+    "en": "الإنجليزية",
+    "ar": "العربية"
+  },
+  "home": {
+    "title": "جميل صباي",
+    "subtitle": "مصور وثائقي",
+    "viewGalleries": "مشاهدة المعارض",
+    "latestWork": "أحدث الأعمال"
+  },
+  "gallery": {
+    "title": "المعارض",
+    "viewGallery": "عرض المعرض",
+    "backToGalleries": "العودة إلى المعارض"
+  },
+  "about": {
+    "title": "عن جميل",
+    "bio": "السيرة الذاتية",
+    "interview": "مقابلة",
+    "exhibitions": "المعارض",
+    "pastExhibitions": "المعارض السابقة",
+    "upcomingExhibitions": "المعارض القادمة",
+    "press": "الصحافة والمنشورات",
+    "collaborations": "التعاون"
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "form": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "message": "الرسالة",
+      "send": "إرسال",
+      "sending": "جاري الإرسال...",
+      "success": "تم إرسال رسالتك بنجاح!",
+      "error": "حدث خطأ. يرجى المحاولة مرة أخرى."
+    },
+    "professionalInfo": "المعلومات المهنية",
+    "pressContact": "الاتصال الصحفي"
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة",
+    "follow": "تابعني"
+  }
+}

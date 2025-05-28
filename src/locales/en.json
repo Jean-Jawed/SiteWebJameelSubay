@@ -1,0 +1,53 @@
+{
+  "navigation": {
+    "home": "Home",
+    "gallery": "Galleries",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "languages": {
+    "fr": "French",
+    "en": "English",
+    "ar": "Arabic"
+  },
+  "home": {
+    "title": "Jameel Subay",
+    "subtitle": "Documentary Photographer",
+    "viewGalleries": "View Galleries",
+    "latestWork": "Latest Work"
+  },
+  "gallery": {
+    "title": "Galleries",
+    "viewGallery": "View Gallery",
+    "backToGalleries": "Back to Galleries"
+  },
+  "about": {
+    "title": "About Jameel",
+    "bio": "Biography",
+    "interview": "Interview",
+    "exhibitions": "Exhibitions",
+    "pastExhibitions": "Past Exhibitions",
+    "upcomingExhibitions": "Upcoming Exhibitions",
+    "press": "Press & Publications",
+    "collaborations": "Collaborations"
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "professionalInfo": "Professional Information",
+    "pressContact": "Press Contact"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "follow": "Follow me"
+  }
+}
