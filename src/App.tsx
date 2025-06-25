@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
 
@@ -20,7 +20,7 @@ import { galleries } from './data/galleries';
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
-      <Router>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
@@ -37,7 +37,7 @@ function App() {
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>
-      </Router>
+      </BrowserRouter>
     </I18nextProvider>
   );
 }

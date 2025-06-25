@@ -23,7 +23,7 @@ const GalleryCard: React.FC<GalleryCardProps> = ({
       <Link to={`/gallery/${slug}`} className="block">
         <div className="relative aspect-[4/3] overflow-hidden">
           <img 
-            src={coverImage} 
+            src={import.meta.env.BASE_URL + coverImage}
             alt={title}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
